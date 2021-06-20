@@ -1,0 +1,123 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+body {
+    margin: 0 auto;
+   background-color: rgb(8, 8, 51);
+   font-family: 'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
+   padding: 20px;
+}
+
+
+.card {
+    display:inline-block !important;
+    background-color: cornsilk;
+    border: 2px solid grey;
+    padding: 1em;
+    border-radius: 15px;
+    box-shadow: 5px 3px 6px #fff;
+    cursor: pointer;
+    transition: all 0.5s;
+    margin-bottom: 1em;
+    margin-right: 1em;
+    max-width: 300px;
+}
+
+.card:hover{
+    border: 2px solid #fff;
+    box-shadow:  5px 5px 3px grey;
+    background-color: rgb(221, 214, 188);
+    color: rgb(42, 38, 38);
+}
+
+.title {
+    border-bottom: 2px solid grey;
+    padding-bottom: 3px;
+}
+
+.content {
+    padding: 15px 0px;
+}
+
+.post-link {
+    color: rgb(160, 124, 124);
+    padding-top: 10px;
+    font-size: 1.2em;
+    transition: all 0.3s;
+    display: flex;
+    flex-direction: row-reverse;
+    
+}
+
+.post-link:hover{
+    color: rgb(27, 27, 63);
+    font-size: 1.3em;
+    text-decoration: none;
+}
+
+.navbar {
+    display: flex;
+    padding: 20px;
+    align-items: center;
+    max-width: 600px;
+    margin: 0 auto;
+    white-space: nowrap;
+
+}
+
+.links{
+    margin-left: auto;
+}
+
+.navbar a {
+    margin-left: 16px;
+    text-decoration: none;
+    padding: 6px;
+    color: rgb(39, 39, 246);
+    font-size: 1.5em;
+}
+
+.navbar a:hover{
+    color: whitesmoke;
+}
+
+.loading{
+    font-size: 1.3em;
+    color: white;
+    margin: 1em;
+    
+}
+
+.header {
+     font-size: 2em;
+    color: whitesmoke;
+    margin-bottom: 30px;
+}
+
+/* @media screen and (max-width: 450px) {
+    
+ .card {
+  max-width: ;
+   
+    margin-left: 10em;
+    margin-top: 1em;
+    font-size: 1em;
+}
+
+.navbar {
+    width: 100%;
+    font-size: 1em;
+
+}
+
+.content{
+    font-size: 1.1em;
+} 
+}
+*/
+
+
+
